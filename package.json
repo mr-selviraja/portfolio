@@ -1,0 +1,14 @@
+{
+  "name": "mr_selviraja-portfolio-website",
+  "version": "1.0.0",
+  "description": "A personal portfolio website showcasing my Projects, Experience and Skills as well as everything around it.",
+  "main": "index.js",
+  "scripts": {
+    "start-live-server": "start live-server",
+    "transpile-sass": "sass --watch ./sass/main.scss:./styles.css --no-source-map",
+    "start": "npm run start-live-server && npm run transpile-sass"
+  },
+  "keywords": [],
+  "author": "Selviraja Pasagadugula",
+  "license": "ISC"
+}

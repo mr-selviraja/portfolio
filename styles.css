@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Outfit", "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  background-image: linear-gradient(to right bottom, #8761FA, #ff3ddf);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading-primary {
+  font-size: 4.2rem;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 5vw;
+  margin: 0 auto;
+}
+
+.font-accent {
+  font-family: "Marcellus", "Georgia", serif;
+}

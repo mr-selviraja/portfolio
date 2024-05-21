@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: $default-font-size;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: $font-regular;
+    font-size: $text-regular;
+    line-height: $default-line-height;
+
+    background-image: linear-gradient(to right bottom, $color-primary, $color-secondary);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
