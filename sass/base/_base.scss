@@ -15,8 +15,9 @@ body {
     font-family: $font-regular;
     font-size: $text-regular;
     line-height: $default-line-height;
-
-    background-image: linear-gradient(to right bottom, $color-primary, $color-secondary);
+    background-color: $color-bg;
+    color: $color-text-normal;
+    background-image: linear-gradient(to bottom, $color-bg, $color-bg);
 }
 
 ul {

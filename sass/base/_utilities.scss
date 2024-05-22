@@ -1,9 +1,33 @@
 .container {
     max-width: 120rem;
-    padding: 0 $container-padding;
     margin: 0 auto;
+    padding: 0 $container-padding;
 }
 
+.text-shadow {
+    text-shadow: 0 0 .3rem $color-bg;
+}
+
+// fonts
 .font-accent {
     font-family: $font-accent;
+}
+
+.font-regular {
+    font-family: $font-regular;
+}
+
+// text colors
+.color-accent {
+    color: $color-text-accent;
+}
+
+// alignments
+.center-text {
+    text-align: center;
+}
+
+// margins
+.mb-1 {
+    margin-bottom: 1rem;
 }

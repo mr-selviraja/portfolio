@@ -1,0 +1,30 @@
+.header {
+    &__mesh-gradient {
+        height: 100vh;
+        background-color: $color-bg;
+        background-image: 
+            radial-gradient(farthest-corner at 40% 35%, $color-primary 0px, transparent 80%),
+            radial-gradient(at 60% 10%, $color-secondary 0px, transparent 50%);
+        filter: blur(15rem);
+        -webkit-filter: blur(15rem);
+    }
+
+    &__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    &__profile-img {
+        width: 15rem;
+        border-radius: 50%;
+        border: .5rem solid $color-text-accent;
+    }
+}

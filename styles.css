@@ -15,7 +15,9 @@ body {
   font-family: "Outfit", "Trebuchet MS", sans-serif;
   font-size: 1.5rem;
   line-height: 1.6;
-  background-image: linear-gradient(to right bottom, #8761FA, #ff3ddf);
+  background-color: #181726;
+  color: #d8d2d2;
+  background-image: linear-gradient(to bottom, #181726, #181726);
 }
 
 ul {
@@ -28,14 +30,67 @@ a {
 
 .heading-primary {
   font-size: 4.2rem;
+  line-height: 1.2;
+}
+
+.text-regular {
+  font-size: 1.5rem;
+}
+
+.text-tertiary {
+  font-size: 2rem;
 }
 
 .container {
   max-width: 120rem;
-  padding: 0 5vw;
   margin: 0 auto;
+  padding: 0 5vw;
+}
+
+.text-shadow {
+  text-shadow: 0 0 0.3rem #181726;
 }
 
 .font-accent {
   font-family: "Marcellus", "Georgia", serif;
+}
+
+.font-regular {
+  font-family: "Outfit", "Trebuchet MS", sans-serif;
+}
+
+.color-accent {
+  color: #ffffff;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.header__mesh-gradient {
+  height: 100vh;
+  background-color: #181726;
+  background-image: radial-gradient(farthest-corner at 40% 35%, #9e9aef 0px, transparent 80%), radial-gradient(at 60% 10%, rgba(255, 94, 0, 0.9019607843) 0px, transparent 50%);
+  filter: blur(15rem);
+  -webkit-filter: blur(15rem);
+}
+.header__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.header__profile-img {
+  width: 15rem;
+  border-radius: 50%;
+  border: 0.5rem solid #ffffff;
 }
