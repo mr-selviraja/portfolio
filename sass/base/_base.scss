@@ -27,3 +27,12 @@ ul {
 a {
     text-decoration: none;
 }
+
+.section {
+    margin: calc(5vw + 5rem) 0;
+
+    &__heading {
+        margin-bottom: 5rem;
+        letter-spacing: 0.25rem;
+    }
+}

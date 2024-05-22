@@ -4,8 +4,25 @@
     padding: 0 $container-padding;
 }
 
+.divider {
+    border: none;
+    border-bottom: .5rem dotted $color-text-normal;
+    width: 2.5rem;
+    margin: 0 auto;
+}
+
+// background color utilities 
+.bg-fg {
+    background-color: $color-fg;
+}
+
+// text utilities
 .text-shadow {
     text-shadow: 0 0 .3rem $color-bg;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
 }
 
 // fonts

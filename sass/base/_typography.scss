@@ -3,10 +3,22 @@
     line-height: 1.2;
 }
 
+.heading-secondary {
+    font-size: $text-secondary;
+}
+
+.heading-tertiary {
+    font-size: $text-tertiary;
+}
+
 .text-regular {
     font-size: $text-regular;
 }
 
-.text-tertiary {
-    font-size: 2rem;
+.text-big {
+    font-size: $text-big;
+}
+
+.text-small {
+    font-size: $text-small;
 }
