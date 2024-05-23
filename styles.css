@@ -163,6 +163,7 @@ a {
 .experience__list {
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
 }
 .experience__item {
   display: flex;
@@ -184,8 +185,11 @@ a {
 .experience__item--company {
   display: flex;
   flex-direction: column;
+  background: #1b1a34;
+  border-radius: 0.5rem;
+  padding: 1.5rem 3.5rem;
   width: calc(50% - 0.75rem);
-  padding-left: 5rem;
+  margin-left: 5rem;
 }
 .experience__item--company--name {
   display: flex;
