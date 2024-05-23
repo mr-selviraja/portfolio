@@ -86,6 +86,10 @@ a {
   text-transform: uppercase;
 }
 
+.text-italic {
+  font-style: italic;
+}
+
 .font-accent {
   font-family: "Marcellus", "Georgia", serif;
 }
@@ -98,12 +102,20 @@ a {
   color: #ffffff;
 }
 
+.color-primary {
+  color: #9e9aef;
+}
+
 .center-text {
   text-align: center;
 }
 
 .mb-1 {
   margin-bottom: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
 }
 
 .header__mesh-gradient {
@@ -146,4 +158,32 @@ a {
 }
 .skills__item--img {
   height: 5rem;
+}
+
+.experience__list {
+  display: flex;
+  flex-direction: column;
+}
+.experience__item {
+  display: flex;
+  margin: 0 auto;
+}
+.experience__item--role {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 0.75rem);
+  text-align: right;
+  padding-right: 5rem;
+  border-right: 0.5rem dashed #1b1a34;
+}
+.experience__item--dot {
+  color: rgba(255, 94, 0, 0.25);
+  align-self: center;
+  transform: translateX(-1rem);
+}
+.experience__item--company {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 0.75rem);
+  padding-left: 5rem;
 }

@@ -25,6 +25,10 @@
     text-transform: uppercase;
 }
 
+.text-italic {
+    font-style: italic;
+}
+
 // fonts
 .font-accent {
     font-family: $font-accent;
@@ -39,6 +43,10 @@
     color: $color-text-accent;
 }
 
+.color-primary {
+    color: $color-primary;
+}
+
 // alignments
 .center-text {
     text-align: center;
@@ -47,4 +55,8 @@
 // margins
 .mb-1 {
     margin-bottom: 1rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
 }
