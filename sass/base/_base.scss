@@ -36,3 +36,15 @@ a {
         letter-spacing: 0.25rem;
     }
 }
+
+input, textarea {
+    border: none;
+    font-family: $font-regular;
+    background-color: $color-fg;
+    padding: 1rem;
+    border-radius: .5rem;
+
+    &:focus {
+        outline: 1px solid $color-primary;
+    }
+}
