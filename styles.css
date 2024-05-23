@@ -187,3 +187,8 @@ a {
   width: calc(50% - 0.75rem);
   padding-left: 5rem;
 }
+.experience__item--company--name {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

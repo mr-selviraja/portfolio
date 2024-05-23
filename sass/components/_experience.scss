@@ -32,6 +32,12 @@
 
             width: calc(calc(100% / 2) - .75rem);
             padding-left: 5rem;
+
+            &--name {
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+            }
         } 
     }
 }
