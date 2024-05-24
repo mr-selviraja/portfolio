@@ -43,6 +43,8 @@ input, textarea {
     background-color: $color-fg;
     padding: 1rem;
     border-radius: .5rem;
+    caret-color: $color-text-accent;
+    color: $color-text-normal;
 
     &:focus {
         outline: 1px solid $color-primary;
