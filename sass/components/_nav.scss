@@ -1,0 +1,27 @@
+.nav {
+    background-color: rgba($color-bg, 0.85); 
+    width: min-content;
+    margin: 2.5rem auto 0;
+
+    padding: 1.5rem 5rem;
+    border-radius: 5rem;
+    position: sticky;
+    top: 2.5rem;
+    z-index: 100;
+    box-shadow: 0 0 .5rem rgba($color-text-normal, 0.75);
+
+    &__menu {
+        text-transform: uppercase;
+
+        display: flex;
+        gap: 5rem;
+
+        &--link {
+            color: $color-text-normal;
+
+            &:hover {
+                color: $color-text-accent;
+            }
+        }
+    }
+}

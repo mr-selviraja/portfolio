@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -278,8 +279,31 @@ input:focus, textarea:focus {
   color: #181726;
 }
 .btn--primary:hover {
-  background-color: #746ee8 !important;
+  background-color: #918ded !important;
 }
 .btn--lg {
   padding: 1rem 2.5rem;
+}
+
+.nav {
+  background-color: rgba(24, 23, 38, 0.85);
+  width: min-content;
+  margin: 2.5rem auto 0;
+  padding: 1.5rem 5rem;
+  border-radius: 5rem;
+  position: sticky;
+  top: 2.5rem;
+  z-index: 100;
+  box-shadow: 0 0 0.5rem rgba(216, 210, 210, 0.75);
+}
+.nav__menu {
+  text-transform: uppercase;
+  display: flex;
+  gap: 5rem;
+}
+.nav__menu--link {
+  color: #d8d2d2;
+}
+.nav__menu--link:hover {
+  color: #ffffff;
 }
