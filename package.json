@@ -1,0 +1,19 @@
+{
+  "name": "design-portfolio-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:sass": "sass --watch src/scss/styles.scss src/styles.css --no-source-map",
+    "dev:server": "live-server src",
+    "dev": "concurrently \"npm run dev:sass\" \"npm run dev:server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "live-server": "^1.2.2",
+    "sass": "^1.89.2"
+  }
+}
