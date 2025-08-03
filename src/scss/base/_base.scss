@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: $default-font-size;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $font-regular;
+  font-size: $text-body;
+  line-height: $default-line-height;
+  background-color: $color-light;
+  color: $color-black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, input, textarea {
+  font-family: inherit;
+  border: none;
+}

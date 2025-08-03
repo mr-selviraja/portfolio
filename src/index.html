@@ -3,11 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Static Site</title>
+  <title>Selviraja's Design Portfolio</title>
+
+  <!-- Custom CSS Stylesheet -->
   <link rel="stylesheet" href="./styles.css" />
+
+  <!-- HugeIcons CDN -->
+  <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
+
+  <!-- Google Fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello, Product!</h1>
+  <header class="header">
+    <nav class="header__nav">
+      <a class="header__nav--brand weight-medium" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none">
+            <path d="M3 11.9896V14.5C3 17.7998 3 19.4497 4.02513 20.4749C5.05025 21.5 6.70017 21.5 10 21.5H14C17.2998 21.5 18.9497 21.5 19.9749 20.4749C21 19.4497 21 17.7998 21 14.5V11.9896C21 10.3083 21 9.46773 20.6441 8.74005C20.2882 8.01237 19.6247 7.49628 18.2976 6.46411L16.2976 4.90855C14.2331 3.30285 13.2009 2.5 12 2.5C10.7991 2.5 9.76689 3.30285 7.70242 4.90855L5.70241 6.46411C4.37533 7.49628 3.71179 8.01237 3.3559 8.74005C3 9.46773 3 10.3083 3 11.9896Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M15 21.5V16.5C15 15.0858 15 14.3787 14.5607 13.9393C14.1213 13.5 13.4142 13.5 12 13.5C10.5858 13.5 9.87868 13.5 9.43934 13.9393C9 14.3787 9 15.0858 9 16.5V21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+      </a>
+
+      <button id="btn-nav-toggle">
+        <span id="btn-nav-toggle-bar-1"></span>
+        <span id="btn-nav-toggle-bar-2"></span>
+      </button>
+
+      <ul class="header__nav--menu">
+        <li class="header__nav--menu--link">
+          <a class="weight-medium" href="#">About</a>
+        </li>
+        <li class="header__nav--menu--link">
+          <a class="weight-medium" href="#">Work</a>
+        </li>
+        <li class="header__nav--menu--link">
+          <a class="weight-medium" href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="header__hero--">
+      <div class="header__hero--description">
+        <h2 class="header__hero--description--title">I'm Selviraja</h2>
+        <p class="header__hero--description--content font-accent text-primary">
+          ...& I Design Research Driven Intuitive User Experiences
+        </p>
+      </div>
+    </section>
+  </header>
+  <!-- End of Header -->
   <script src="script.js"></script>
 </body>
 </html>

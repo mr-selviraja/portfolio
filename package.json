@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev:sass": "sass --watch src/scss/styles.scss src/styles.css --no-source-map",
+    "dev:sass": "sass --watch src/scss/main.scss src/styles.css --no-source-map",
     "dev:server": "live-server src",
     "dev": "concurrently \"npm run dev:sass\" \"npm run dev:server\""
   },

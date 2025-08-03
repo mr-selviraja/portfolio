@@ -1,0 +1,59 @@
+.header__nav {
+    width: 100%;
+    padding: 0 10vw;
+
+    display: inline-flex;
+    gap: space(5);
+    align-items: center;
+    justify-content: space-between;
+
+    position: sticky;
+    top: space(5);
+    left: calc(50vw - calc(32.4rem / 2)); // Manipulated with static sizes for now
+
+    &--brand {
+        background-color: $color-white;
+        border: 1px solid $color-gray-light;
+        border-radius: 50%;
+
+        height: 5rem;
+        width: 5rem;
+
+        display: flex;
+    }
+
+    &--menu {
+        &.active{
+            display: flex;
+            animation: zoomFadeIn 0.4s ease-in-out;
+        }
+
+        background-color: $color-white;
+        border: 1px solid $color-gray-light;
+        border-radius: space(5);
+        padding: space(5) space(10);
+
+        gap: space(10);
+
+        position: absolute;
+        height: auto;
+        right: 10vw;
+        top: calc(5.5rem);
+        
+        display: none; // prop to change
+        flex-direction: column;
+        gap: 1.5rem;
+
+        &--link {
+            & a {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    &--brand,
+    &--menu {
+        align-items: center;
+        justify-content: center;
+    }
+}

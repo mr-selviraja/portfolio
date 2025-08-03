@@ -1,0 +1,4 @@
+// Function for returning scalable spaces - 4point spacing system
+@function space($n) {
+  @return $n * 0.4rem;
+}

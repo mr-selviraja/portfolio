@@ -1,0 +1,54 @@
+// Font Types
+.font-accent {
+    font-family: $font-accent;
+}
+
+// Text Sizes
+.text-primary {
+    font-size: 3.2rem;
+}
+
+// Text Weights
+.weight-medium {
+    font-weight: 500;
+}
+
+#btn-nav-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    align-items: center;
+    justify-content: center;
+
+    background-color: $color-white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: 1px solid $color-gray-light;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    & span {
+        width: 1.6rem;
+        height: .15rem;
+        display: block;
+        background-color: $color-gray-dark;
+        border-radius: .4rem;
+
+        transition: all .4s ease-in-out;
+    }
+}
+
+#btn-nav-toggle-bar-1 {
+    &.active {
+        transform: translateY(0.25rem) rotate(45deg);
+    }
+}
+
+#btn-nav-toggle-bar-2 {
+    &.active {
+        transform: translateY(-0.25rem) rotate(-45deg);
+    }
+}
