@@ -261,8 +261,9 @@ button, input, textarea {
 .about-me__tools--list, .about-me__technologies--list {
   display: flex;
   width: 80%;
-  justify-content: space-between;
+  gap: 3rem;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 0 auto;
 }
 .about-me__tools--list span, .about-me__technologies--list span {
