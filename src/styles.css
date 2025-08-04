@@ -199,8 +199,9 @@ button, input, textarea {
 }
 .header__hero--description--title {
   font-size: 2rem;
-  color: #484857;
+  color: #60606f;
   margin-bottom: 1rem;
+  font-weight: 400;
 }
 .header__hero--description--content {
   font-size: 2.8rem;
