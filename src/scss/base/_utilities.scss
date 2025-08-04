@@ -52,3 +52,17 @@
         transform: translateY(-0.25rem) rotate(-45deg);
     }
 }
+
+.divider {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+    & span {
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background: $color-gray-light;
+    }
+}
