@@ -2,20 +2,36 @@
     #btn-nav-toggle {
         display: none;
     }
-    .header__nav {
-        justify-content: center !important;
+    .header {
+        &__nav {
+            justify-content: center !important;
 
-        &--menu {
-            display: flex !important;
-            flex-direction: row !important;
+            &--menu {
+                display: flex !important;
+                flex-direction: row !important;
 
-            position: relative !important;
-            right: auto !important;
-            top: auto !important;
-            
-            height: 5rem !important;
-            padding: 0 space(6) !important;
-            border-radius: space(10) !important;
+                position: relative !important;
+                right: auto !important;
+                top: auto !important;
+                
+                height: 5rem !important;
+                padding: 0 space(6) !important;
+                border-radius: space(10) !important;
+            }
+        }
+
+        &__hero {
+            &--actions {
+                flex-direction: row !important;
+                width: auto !important;
+            }
+
+            &--description {
+                &--content {
+                    font-size: 3.2rem;
+                    width: 50rem !important;
+                }
+            }
         }
     }
 }

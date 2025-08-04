@@ -1,0 +1,22 @@
+.btn {
+    border: none;
+    padding: 1.25rem 2.5rem;
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+
+    font-size: 1.4rem;
+
+    &-white {
+        background-color: $color-white;
+        border: 1px solid $color-gray-light;
+    }
+
+    &-black {
+        background-color: $color-black;
+        color: $color-white;
+    }
+}
