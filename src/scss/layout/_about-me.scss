@@ -1,0 +1,46 @@
+.about-me {
+    &__description {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    &__tools,
+    &__technologies {
+        padding: 2.5rem 0 0;
+
+        &--title {
+            font-family: $font-accent;
+            font-weight: 400;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        &--list {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            margin: 0 auto;
+
+            & span {
+                display: flex;
+                gap: .5rem;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                & img {
+                    width: 3.5rem;
+                }
+
+                & p {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
