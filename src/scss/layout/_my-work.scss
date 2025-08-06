@@ -1,0 +1,42 @@
+.my-work {
+    background-color: teal;
+
+    &__content {
+        background-color: $color-white;
+        border: 1px solid $color-gray-light;
+        border-radius: space(3);
+        padding: space(8);
+
+        display: flex;
+
+        &--img-container {
+            flex-grow: 50%;
+
+            & img {
+                width: 90%;
+            }
+        }
+
+        &--description {
+            flex-grow: 50%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &--title-sub {
+                display: flex;
+                flex-direction: column;
+                gap: space(1);
+            }
+
+            &--skills-tags {
+                display: flex;
+            }
+
+            &--action {
+                align-self: baseline;
+            }
+        }
+    }
+}
